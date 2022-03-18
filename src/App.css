@@ -1,0 +1,33 @@
+
+:root {
+  --primary-color: #664de5;
+}
+
+.eden-app {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eden-page-form-container {
+  width: 33.3%;
+  margin: 30px auto;
+}
+
+.eden-page-caption {
+  color: gray;
+}
+
+@media screen and (max-width: 600px) {
+  .eden-page-form-container {
+    width: 80%;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .eden-page-form-container {
+    width: 50%;
+    margin: 30px auto;
+  }
+}

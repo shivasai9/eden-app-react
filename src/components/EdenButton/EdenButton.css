@@ -1,0 +1,14 @@
+.eden-button {
+    padding: 16px;
+    width: 100%;
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.eden-button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

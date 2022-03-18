@@ -1,0 +1,12 @@
+.eden-planning-page {
+    text-align: center;
+}
+
+.eden-planning-page h1 {
+    margin: 0px 6px;
+}
+
+.eden-planning-selections {
+    display: flex;
+    justify-content: center;
+} 

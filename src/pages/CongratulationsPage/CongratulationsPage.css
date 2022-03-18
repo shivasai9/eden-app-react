@@ -1,0 +1,16 @@
+.eden-congratulations-page {
+    text-align: center;
+}
+.eden-welcome-page h1 {
+    margin: 0px 6px;
+}
+
+.eden-circle-check {
+    background-color: var(--primary-color);
+    color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+}

@@ -1,0 +1,32 @@
+.eden-select-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    width: 160px;
+    padding: 26px;
+    text-align: start;
+    margin: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eden-card-icon {
+    margin-bottom: 12px;
+}
+.eden-card-heading {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.eden-card-body {
+    font-weight: 100;
+    color: gray;
+    font-size: small;
+}
+
+.eden-card-selected {
+    color: #664de5;
+}
+
+.eden-selected-card {
+    border-color: var(--primary-color);
+}

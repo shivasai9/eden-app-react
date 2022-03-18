@@ -1,0 +1,38 @@
+
+.eden-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.eden-input-label {
+    align-self: flex-start;
+    font-weight: 500;
+    color: gray;
+}
+.eden-input-container {
+    display: flex;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.eden-input-static-text {
+    vertical-align: middle;
+    border: 1px solid #f8f9fc;
+    background-color: #f8f9fc;
+    border-radius: 5px;
+    padding: 12px;
+    align-self: center;
+    font-weight: 300;
+    color: gray;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.eden-input-field {
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+}
+.eden-inpuit-field-no-left-border-radius {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
